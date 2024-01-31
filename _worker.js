@@ -2,7 +2,7 @@ export default {
 async fetch(request, env) {
 const cars = [
 "meow.nl.eu.org",
-"napusesi-sdhjssk-845uhfdhfdk.herokuapp.com"
+"meow.nl.eu.org"
 ];
 //let host = cars[Math.floor(Math.random() * cars.length)]; //随机选择VPS
 let host = cars[new Date().getDate() % cars.length]; //每天自动更换VPS
